@@ -1,0 +1,132 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	background:#f1f9f9;
+	 background-image: url("img/sample5.jpg");
+	 background-repeat: repeat;
+	 background-size: ;
+}
+
+.form-signin {
+    max-width: 500px;
+    padding: 19px 29px 29px;
+    margin: 0 auto;
+	//margin-top:90px;
+    background-color: #fff;
+
+    border: 1px solid #e5e5e5;
+    -webkit-border-radius: 5px;
+       -moz-border-radius: 5px;
+            border-radius: 5px;
+    -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.05);
+       -moz-box-shadow: 0 1px 2px rgba(0,0,0,.05);
+            box-shadow: 0 1px 2px rgba(0,0,0,.05);
+
+	font-family:Tahoma, Geneva, sans-serif;
+	color:#990000;
+	font-weight:lighter;
+}
+
+.form-signin .form-signin-heading{
+    color:#00A2D1;
+}
+.form-signin input[type="text"],
+.form-signin input[type="password"],
+.form-signin input[type="email"] {
+    font-size: 16px;
+    height: 45px;
+    padding: 7px 9px;
+}
+
+.signin-form, .body-container
+{
+	//border:solid red 1px;
+	margin-top:110px;
+}
+
+#btn-submit{
+	height:45px;
+}
+
+
+/*mmmmmmmmm*/
+
+@import url(http://fonts.googleapis.com/css?family=Droid+Sans);
+form{
+    background-color:white;
+}
+#maindiv{
+    width:960px;
+    margin:10px auto;
+    padding:10px;
+    font-family: 'Droid Sans', sans-serif;
+}
+#formdiv{
+    width:500px;
+    float:left;
+    text-align: center;
+}
+form{
+    padding: 40px 20px;
+    box-shadow: 0px 0px 10px;
+    border-radius: 2px;
+}
+h2{
+    margin-left: 30px;
+}
+.upload{
+    background-color:#ff0000;
+    border:1px solid #ff0000;
+    color:#fff;
+    border-radius:5px;
+    padding:10px;
+    text-shadow:1px 1px 0px green;
+    box-shadow: 2px 2px 15px rgba(0,0,0, .75);
+}
+.upload:hover{
+    cursor:pointer;
+    background:#c20b0b;
+    border:1px solid #c20b0b;
+    box-shadow: 0px 0px 5px rgba(0,0,0, .75);
+}
+#file{
+    color:green;
+    padding:5px; border:1px dashed #123456;
+    background-color: #f9ffe5;
+}
+#upload{
+    margin-left: 45px;
+}
+
+#noerror{
+    color:green;
+    text-align: left;
+}
+#error{
+    color:red;
+    text-align: left;
+}
+#img{
+    width: 17px;
+    border: none;
+    height:17px;
+    margin-left: -20px;
+    margin-bottom: 91px;
+}
+
+.abcd{
+    text-align: center;
+}
+
+.abcd img{
+    height:100px;
+    width:100px;
+    padding: 5px;
+    border: 1px solid rgb(232, 222, 189);
+}
+
+#formget{
+    float:right;
+
+}
